@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+ 
+.sidebar {
+    background-color: lightskyblue;
+    height: 100vh;
+ }
+
+ .main {
+    background-color: white;
+    height: 100vh;
+ }
+
