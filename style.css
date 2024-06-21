@@ -24,13 +24,14 @@ body {
  .logo-text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin: 40px 40px;
+    margin: 25px 40px;
  }
 
  .logo-text h1 {
     font-size: 25px;
+    margin: 15px;
  }
 
  .logo-img {
@@ -43,7 +44,8 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin: 10px 40px;
+    margin: 20px 40px;
+    margin-left: 55px;
  }
 
 .list-items-icon {
@@ -56,12 +58,51 @@ body {
 }
 
  .icon-text p {
-    margin-left: 10px;
+    margin-left: 25px;
     font-size: 15px;
  }
+
+ /*Main Page*/
 
  .main {
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+ }
+
+ .header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .navAvatar {
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+ }
+
+ .h4 {
+    font-weight: bolder;
+ }
+
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+ }
+
+ .form-input {
+    width: 500px;
+    background-color: #e7e5e4;
+    border-radius: 10px;
+    border: #e7e5e4;
+    margin-left: 20px;
+    margin-right: 200px;
+ }
+ .content {
+    background-color: #e7e5e4;
  }
 
