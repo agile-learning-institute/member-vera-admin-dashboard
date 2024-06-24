@@ -113,11 +113,12 @@ body {
 
  .btn {
     background-color: #0ea5e9;
-    width: 90px;
+    width: 150px;
     height: 35px;
     color: black;
     border: 1px solid #0ea5e9;
     border-radius: 20px;
+    margin: 10px;
  }
 
  .form-input {
@@ -134,10 +135,50 @@ body {
     flex-direction: row;
     align-items: center;
     margin: 5px 20px;
+    margin-top: 30px;
     justify-content: space-between;
  }
 
  .content {
     background-color: #e7e5e4;
+    display: grid;
+    grid-template-columns: 80% 20%;
  }
 
+ .cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 20px;
+    width: 900px;
+ }
+ .card {
+    background-color: white;
+    border-left: 10px solid #eab308;
+    border-radius: 10px;
+    height: 130px;
+    width: 80% ;
+    margin: 15px 0;
+    margin-left: 20px;
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+ }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+.h5 {
+    font-size: 30px;
+}
+
+.card p {
+    font-size: 15px;
+    columns: #6b7280;
+}
